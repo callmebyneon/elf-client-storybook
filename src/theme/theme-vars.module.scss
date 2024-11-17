@@ -1,0 +1,179 @@
+// common
+$black: #000;
+$white: #FFF;
+
+// paper & background
+$backgroundPaper: #FFF;
+$backgroundDefault: #F4F9FF;
+$backgroundDim: #A8ACC4;
+$backgroundDimmed: rgba(81, 89, 136, 0.5);
+
+// primary
+$primaryTint: #EAF3FE;
+$primaryLighter: #DCE9FD;
+$primaryLight: #BAD3FC;
+$primaryMain: #507BE8;
+$primaryDark: #3b5bdb;
+$primaryDarker: rgb(54, 79, 199);
+
+// secondary
+$secondaryTint: #fcfdff;
+$secondaryLighter: #edf4fe;
+$secondaryLight: #adc1de;
+$secondaryMain: #778aae;
+$secondaryDark: #6d799f;
+$secondaryDarker: #5f657b;
+// $secondaryTint: #F4F9FF;
+// $secondaryLighter: #ADCDF0;
+// $secondaryLight: #4E71A5;
+// $secondaryMain: #203B6A;
+// $secondaryDark: #10214C;
+// $secondaryDarker: #060F32;
+
+// info
+$infoTint: #faf7ff;
+$infoLighter: #eeebfc;
+$infoLight: #e0d9fa;
+$infoMain: #837ae6;
+$infoDark: #7969dc;
+$infoDarker: #6857c7;
+// $infoTint: #F7F0FE;
+// $infoLighter: #EFE6FD;
+// $infoLight: #DFCEFB;
+// $infoMain: #977BDE;
+// $infoDark: #6a47d3;
+// $infoDarker: #5939b7;
+
+// success
+$successTint: #edfdf3;
+$successLighter: #e0fae9;
+$successLight: #b7f4dc;
+$successMain: #42b9a5;
+$successDark: #129785;
+$successDarker: #0a876a;
+// $successTint: #F1FDED;
+// $successLighter: #E2FAE0;
+// $successLight: #C2F6C2;
+// $successMain: #42B98A;
+// $successDark: #129763;
+// $successDarker: #0A8750;
+
+// warning
+$warningTint: #FFF9DB;
+$warningLighter: #FFF3BF;
+$warningLight: #FFE066;
+$warningMain: #FAB005;
+$warningDark: #F59F00;
+$warningDarker: #EB8211;
+
+// error
+$errorTint: #FEF3EC;
+$errorLighter: #FEE8DF;
+$errorLight: #FDCCBF;
+$errorMain: #EC5C63;
+$errorDark: #CD474A;
+$errorDarker: #C13847;
+
+// grey
+$grey50: #FAFAFA;
+$grey100: #F5F5F5;
+$grey200: #EEEEEE;
+$grey300: #E0E0E0;
+$grey400: #BDBDBD;
+$grey500: #9E9E9E;
+$grey600: #757575;
+$grey700: #616161;
+$grey800: #424242;
+$grey900: #212121;
+
+// action opacity
+$activatedOpacity: 0.12;
+$hoverOpacity: 0.1;
+$selectedOpacity: 0.22;
+$disabledOpacity: 0.38;
+$focusOpacity: 0.12;
+
+
+
+// --------------------------< JAVASCRIPT >-------------------------- //
+
+
+:export {
+    // common
+    black: $black;
+    white: $white;
+
+    // paper & background
+    backgroundPaper: $backgroundPaper;
+    backgroundDefault: $backgroundDefault;
+    backgroundDim: $backgroundDim;
+    backgroundDimmed: $backgroundDimmed;
+
+    // primary
+    primaryTint: $primaryTint;
+    primaryLighter: $primaryLighter;
+    primaryLight: $primaryLight;
+    primaryMain: $primaryMain;
+    primaryDark: $primaryDark;
+    primaryDarker: $primaryDarker;
+
+    // secondary
+    secondaryTint: $secondaryTint;
+    secondaryLighter: $secondaryLighter;
+    secondaryLight: $secondaryLight;
+    secondaryMain: $secondaryMain;
+    secondaryDark: $secondaryDark;
+    secondaryDarker: $secondaryDarker;
+
+    // info
+    infoTint: $infoTint;
+    infoLighter: $infoLighter;
+    infoLight: $infoLight;
+    infoMain: $infoMain;
+    infoDark: $infoDark;
+    infoDarker: $infoDarker;
+
+    // success
+    successTint: $successTint;
+    successLighter: $successLighter;
+    successLight: $successLight;
+    successMain: $successMain;
+    successDark: $successDark;
+    successDarker: $successDarker;
+    
+    // warning
+    warningTint: $warningTint;
+    warningLighter: $warningLighter;
+    warningLight: $warningLight;
+    warningMain: $warningMain;
+    warningDark: $warningDark;
+    warningDarker: $warningDarker;
+
+    // error
+    errorTint: $errorTint;
+    errorLighter: $errorLighter;
+    errorLight: $errorLight;
+    errorMain: $errorMain;
+    errorDark: $errorDark;
+    errorDarker: $errorDarker;
+
+    // grey
+    grey50: $grey50;
+    grey100: $grey100;
+    grey200: $grey200;
+    grey300: $grey300;
+    grey400: $grey400;
+    grey500: $grey500;
+    grey600: $grey600;
+    grey700: $grey700;
+    grey800: $grey800;
+    grey900: $grey900;
+
+    // action opacity
+    activatedOpacity: $activatedOpacity;
+    hoverOpacity: $hoverOpacity;
+    selectedOpacity: $selectedOpacity;
+    disabledOpacity: $disabledOpacity;
+    focusOpacity: $focusOpacity;
+
+}
