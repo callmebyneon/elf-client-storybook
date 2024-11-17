@@ -202,7 +202,6 @@ export const historyDataHeadRow = [
 
 /**
  * [EX] 모델별 컬럼 데이터 일괄 적용 매퍼
- * 삭제 칼럼: Accuracy(acu), Recall(rec), Precision(pre), F1-score(f1), AUROC(auroc)
  * 대상 칼럼: Total params(totalparmas), Trainable params(trainable), Non-trainable params(nontrainable), Optimizer(optimizer), Loss function(lossfn) 
  * 사용 예시: TABLE_ROWS.map(_addColumnsMapper)
  */
